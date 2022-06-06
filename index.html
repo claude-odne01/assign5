@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Assignment 5</title>
+     <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body style="background-image: linear-gradient(green, red);">
+     <h1>Calculator Web App</h1>
+     <h3>Enter grades below:</h3>
+     <label for="asgn1">Assignment 1</label>
+     <input type="number" id="asgn1" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <label for="asgn2">Assignment 2</label>
+     <input type="number" id="asgn2" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <label for="asgn3">Assignment 3</label>
+     <input type="number" id="asgn3" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <label for="asgn4">Assignment 4</label>
+     <input type="number" id="asgn4" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <label for="proj1">Project 1</label>
+     <input type="number" id="proj1" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <label for="proj2">Project 2</label>
+     <input type="number" id="proj2" value="100" name="height1" min="1" max="100" maxlength="3" step="1" placeholder="100">
+     <br />
+     <hr />
+     <p id="gpascore1" style="font-weight:bold;">Your Grade Point Average is: 100</p>
+     <input type="button" class="button-style" name="calc1" id="calc1" value="Calculate Averages" style="width: 150px;">
+     <hr />
+     <h3>Convert from Celsius</h3>
+     <label for="cels1">Enter Tempterature in Celsius</label>
+     <input type="number" id="temp1" value="58" name="temp1" min="-88" max="58" maxlength="3" step="1" placeholder="58">
+     <br />
+     <p id="tempchange">The temperature in Farenheit is: 136.4 degrees</p>
+     <input type="button"class="button-style" name="calc2" id="calc2" value="Calculate Temperature" style="width: 150px;">
+     <hr />
+     
+     <div style="text-align: center;">
+          <button id="btn1" class="button-style">Hello!</button>
+          <button id="btn2" class="button-style">Goodbye!</button>
+          <button id="btn3" class="button-style">Farewell!</button>
+     </div>
+     <hr />
+     
+     <!-- The Modal -->
+     <div id="modalwin" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+               <input type="button" id="closeBtn" name="closeBtn" value="Close" class="closeBtn button-style">
+              <img src="img/ty.jpg" alt="thankyou" class="img-style">
+          </div>
+
+     </div>
+     
+     <script src="scripts.js"></script>
+</body>
+</html>
